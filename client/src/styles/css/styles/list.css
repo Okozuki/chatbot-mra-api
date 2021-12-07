@@ -1,0 +1,128 @@
+@import url("./theme.css");
+.monrepondeurauto .monrepondeurauto--list-message {
+  background: var(--cardBackground);
+  border: 1.5px solid var(--cardBorder);
+  border-radius: 20px;
+  margin: 8px 30px 0 0.3em;
+  overflow: hidden;
+}
+
+.monrepondeurauto .monrepondeurauto--list-title-container {
+  min-height: 20px;
+  padding: 10px 0 10px 10px;
+  background-color: var(--primaryColor);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.monrepondeurauto .monrepondeurauto--list-title-container:focus {
+  color: var(--hoverFontColor);
+  background-color: var(--hoverFillColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-title {
+  color: var(--secondaryColor);
+  font-weight: 550;
+  font-family: var(--fontType), sans-serif;
+  font-size: 1em;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-container {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item {
+  min-height: 55px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: 1.5px solid var(--primaryColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-item:hover .monrepondeurauto--list-item-title,
+.monrepondeurauto .monrepondeurauto--list-item:hover .monrepondeurauto--list-item-description,
+.monrepondeurauto .monrepondeurauto--list-item:hover {
+  color: var(--hoverFontColor);
+  background-color: var(--hoverFillColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-item:focus .monrepondeurauto--list-item-title,
+.monrepondeurauto .monrepondeurauto--list-item:focus .monrepondeurauto--list-item-description,
+.monrepondeurauto .monrepondeurauto--list-item:focus {
+  color: var(--hoverFontColor);
+  background-color: var(--hoverFillColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-last {
+  min-height: 55px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: none;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-last:hover .monrepondeurauto--list-item-title,
+.monrepondeurauto .monrepondeurauto--list-item-last:hover .monrepondeurauto--list-item-description,
+.monrepondeurauto .monrepondeurauto--list-item-last:hover {
+  color: var(--hoverFontColor);
+  background-color: var(--hoverFillColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-last:focus .monrepondeurauto--list-item-title,
+.monrepondeurauto .monrepondeurauto--list-item-last:focus .monrepondeurauto--list-item-description,
+.monrepondeurauto .monrepondeurauto--list-item-last:focus {
+  color: var(--hoverFontColor);
+  background-color: var(--hoverFillColor);
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-info {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-title {
+  font-family: var(--fontType), sans-serif;
+  color: var(--primaryColor);
+  font-size: 1em;
+  margin-bottom: 3px;
+  padding-left: 10px;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-description {
+  font-family: var(--fontType), sans-serif;
+  color: var(--primaryColor);
+  font-size: 0.875em;
+  padding-left: 10px;
+  /* width: 85%; */
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-image {
+  max-height: 55px;
+  max-width: 55px;
+  padding: 10;
+}
+
+.monrepondeurauto .monrepondeurauto--list-item-image > img {
+  max-height: inherit;
+  max-width: inherit;
+}
+
+/* WEBPACK FOOTER 
+ ./src/styles/list.css */

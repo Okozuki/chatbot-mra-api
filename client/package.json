@@ -1,0 +1,61 @@
+{
+  "name": "my-bot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@livechat/ui-kit": "^0.4.0-7",
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@types/debug": "^4.1.5",
+    "@types/jest": "24.0.19",
+    "@types/node": "12.7.12",
+    "@types/react": "16.9.6",
+    "@types/react-dom": "16.9.2",
+    "@types/react-slick": "^0.23.4",
+    "@types/uuid": "^3.4.5",
+    "aws-mqtt": "^1.0.0",
+    "aws-sdk": "^2.550.0",
+    "axios": "^0.19.0",
+    "fingerprintjs2": "^1.8.4",
+    "lodash": "^4.17.15",
+    "mobx": "^5.14.0",
+    "mobx-react": "^6.1.4",
+    "mobx-state-tree": "^3.14.1",
+    "react": "^16.10.2",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "react-slick": "^0.25.2",
+    "react-stay-scrolled": "^7.0.0",
+    "typescript": "3.6.4",
+    "universal-cookie": "^4.0.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/fingerprintjs2": "^2.0.0",
+    "@types/http-proxy-middleware": "^0.19.3",
+    "@types/lodash": "^4.14.144",
+    "http-proxy-middleware": "^0.20.0"
+  }
+}

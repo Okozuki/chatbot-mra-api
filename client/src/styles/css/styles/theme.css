@@ -1,0 +1,75 @@
+:root {
+  --primaryColor: #5c5fa4;
+  --secondaryColor: #fff;
+  --chatBackground: #fff;
+  --typingAnimationDots: #5c5fa4;
+  --typingAnimationFill: #f2f2f2;
+  --userResponseColor: #fff;
+  --userBoxColor: #5c5fa4;
+  --fontType: "Open Sans";
+  --hoverFillColor: #404f73;
+  --hoverFontColor: #fff;
+  --widgetShape: "50%";
+  /* greeter */
+  --greeterFontColor: "#5c5fa4";
+  --greeterBorder: "#5c5fa4";
+  --greeterBackground: "#5c5fa4";
+  --greeterPromptBackground: "#fff";
+  --greeterHoverFillColor: "#404f73";
+  --greeterHoverFontColor: "#fff";
+  /* dimensions */
+  --dimensionsWindowHeight: "1";
+  --dimensionsWindowHeightRaw: 1;
+  --inputText: #292929;
+  /* Font color of user's text in Input Field */
+  --inputBorder: #cdced2;
+  /* Border color around Input Field */
+  --inputBackground: #e6e6e6;
+  /* Background color of Input Field */
+  --chatWindowShadow: rgba(0, 0, 0, 0.4);
+  /* Shadow color around chat window */
+  --poweredByText: #888;
+  /* Font color of 'Powered by monrepondeurauto' */
+  --menuActionArrow: #292929;
+  /* Color of arrow to right of Input Field */
+  --headerColor: var(--primaryColor);
+  /* Color of header at top of chat window*/
+  --botPageEventText: var(--greeterFontColor);
+  /* Font color of page event text of minimized bot*/
+  --botPageEventBorder: var(--greeterBorder);
+  /* Border color of page event text of minimized bot */
+  --menuButton: var(--primaryColor);
+  /* Font color of Menu button to left of Input Field */
+  --cardTextColor: var(--primaryColor);
+  /* Font color of text in cards */
+  --cardBorder: var(--primaryColor);
+  /* Border color of cards */
+  --cardButtonColor: var(--primaryColor);
+  /* Button color of cards */
+  --quickButtonBorder: var(--primaryColor);
+  /* Border color of quick replies */
+  --quickButtonBackground: var(--primaryColor);
+  /* Background fill color of quick replies */
+  --galleryArrowBorder: var(--primaryColor);
+  /* Arrow color for gallery cards */
+  --quickTextColor: var(--secondaryColor);
+  /* Font color for quick replies */
+  --cardButtonTextColor: var(--secondaryColor);
+  /* Font color for card buttons */
+  --headerTextColor: var(--secondaryColor);
+  /* Font color for chat window header */
+  --botAppBackground: var(--chatBackground);
+  /* Background color for bot app */
+  --chatWindowBackground: var(--chatBackground);
+  /* Background color for chat window */
+  --poweredBackground: #fff;
+  /* Background color for 'Powered by monrepondeurauto */
+  --galleryArrowBackground: var(--chatBackground);
+  /* Background color for gallery card arrow bubbles */
+  --cardBackground: var(--secondaryColor);
+  /* Background color for cards */
+  --botPageEventFill: var(--greeterPromptBackground);
+  /* Background color for page event of minimized bot */
+  --cardButtonBorder: var(--chatBackground);
+  /* Border color for card buttons */
+}

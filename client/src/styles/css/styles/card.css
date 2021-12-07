@@ -1,0 +1,94 @@
+@import url("./theme.css");
+.monrepondeurauto .monrepondeurauto--card {
+  background: var(--cardBackground);
+  border: 1.5px solid var(--cardBorder);
+  border-radius: 20px;
+  margin: 8px 30px 0 0.3em;
+  overflow: hidden;
+}
+
+.monrepondeurauto .monrepondeurauto--mediaImg {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.monrepondeurauto .monrepondeurauto--video video {
+  margin: 0 0 -5px 0px !important;
+  height: 169px;
+}
+
+.monrepondeurauto .monrepondeurauto--video {
+  background: var(--cardBackground);
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--mediaImg {
+  max-width: 100%;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 2px solid var(--cardBorder);
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-title {
+  color: var(--cardTextColor);
+  font-weight: bold;
+  font-size: 0.875em;
+  font-family: var(--fontType), sans-serif;
+  line-height: normal;
+  padding: 10px;
+  text-align: left;
+  background: var(--cardBackground);
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-subtitle {
+  color: var(--cardTextColor);
+  font-size: 0.875em;
+  font-family: var(--fontType), sans-serif;
+  line-height: normal;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background: var(--cardBackground);
+  font-weight: 550;
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-formattedText {
+  color: var(--cardTextColor);
+  font-size: 0.875em;
+  font-family: var(--fontType), sans-serif;
+  line-height: normal;
+  padding: 10px;
+  text-align: left;
+  background: var(--cardBackground);
+  font-weight: 550;
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-button {
+  background: var(--cardButtonColor);
+  border-bottom: 1px solid var(--cardButtonBorder) !important;
+  border: 0;
+  font-size: 0.875em;
+  font-weight: 550;
+  font-family: var(--fontType), sans-serif;
+  line-height: normal;
+  top: 0 !important;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: right;
+  width: 100%;
+  color: var(--cardButtonTextColor) !important;
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-button:last-child {
+  border-bottom-left-radius: 17px !important;
+  border-bottom-right-radius: 17px !important;
+  border-bottom: 0 solid var(--cardButtonBorder) !important;
+}
+
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-button:hover,
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-button:focus,
+.monrepondeurauto .monrepondeurauto--card .monrepondeurauto--card-button:active {
+  background: var(--hoverFillColor) !important;
+  color: var(--hoverFontColor) !important;
+  outline: none;
+}
